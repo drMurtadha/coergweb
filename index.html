@@ -11,10 +11,20 @@
       color: #222;
       text-align: center;
     }
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      margin-bottom: 20px;
+    }
+    .logo-container img {
+      height: 80px;
+    }
     h1 {
       font-size: 2.2em;
-      margin-bottom: 30px;
       color: #5a005a;
+      margin-bottom: 30px;
     }
     iframe {
       width: 90%;
@@ -25,7 +35,13 @@
   </style>
 </head>
 <body>
+  <div class="logo-container">
+    <img src="https://www.utm.my/wp-content/uploads/2020/09/Logo-UTM.png" alt="UTM Logo">
+    <img src="https://coerg.utm.my/wp-content/uploads/sites/139/2023/12/kalam-logo-2048x699.png" alt="KALAM Logo">
+  </div>
+
   <h1>Microclimate Monitoring Dashboard</h1>
+
   <iframe title="MICROCLIMATE MONITORING"
     src="https://app.powerbi.com/view?r=eyJrIjoiMjVjZTk3NTYtZWRlZS00MmQ4LTk0N2EtM2UyYzZiYzE1Y2JiIiwidCI6IjBlMGRiMmFkLWM0MTYtNDdjNy04OGVjLWNlYWM0ZWU3Njc2NyIsImMiOjEwfQ%3D%3D"
     allowfullscreen="true">
